@@ -58,7 +58,7 @@ class game : AppCompatActivity() {
             }
 
             val pref: SharedPreferences = getSharedPreferences("score", Context.MODE_PRIVATE)
-            if (score > pref.getInt("score", 0)) {
+            if (score > pref.getInt("record", 0)) {
                 val editor = pref.edit()
                 editor.putInt("record", score)
                 editor.apply()
