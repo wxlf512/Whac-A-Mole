@@ -3,4 +3,8 @@
     <string name="description">Прибейте максимум кротов\nЗа 30 секунд</string>
     <string name="record">Ваш рекорд:</string>
     <string name="play">Играть</string>
+    <string name="currentScore">Счёт:</string>
+    <string name="defaultTime">30</string>
+    <string name="hole">hole</string>
+    <string name="menu">Меню</string>
 </resources>

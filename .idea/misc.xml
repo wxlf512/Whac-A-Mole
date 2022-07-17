@@ -3,8 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/YandexDisk/Work/Android/WhacAMole/app/src/main/res/layout/activity_game.xml" value="0.2753623188405797" />
+        <entry key="..\:/YandexDisk/Work/Android/WhacAMole/app/src/main/res/layout/activity_game.xml" value="0.22" />
         <entry key="..\:/YandexDisk/Work/Android/WhacAMole/app/src/main/res/layout/activity_main.xml" value="0.276268115942029" />
+        <entry key="..\:/YandexDisk/Work/Android/WhacAMole/app/src/main/res/layout/activity_result.xml" value="0.18020833333333333" />
       </map>
     </option>
   </component>

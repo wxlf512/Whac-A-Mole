@@ -18,10 +18,10 @@ class MainActivity : AppCompatActivity() {
         val playBtn: Button = findViewById(R.id.playBtn)
         val recordView: TextView = findViewById(R.id.record)
         val pref: SharedPreferences = getSharedPreferences("score", Context.MODE_PRIVATE)
-        recordView.text = this.resources.getString(R.string.record) + "\n" + pref.getInt("record", 0).toString()
+        recordView.text = this.resources.getString(R.string.record) + " " + pref.getInt("record", 0).toString()
         playBtn.setOnClickListener {
-            val intent = Intent(this, game::class.java)
-            startActivity(intent)
+            val myIntent = Intent(this, game::class.java)
+            startActivity(myIntent)
         }
     }
 }
